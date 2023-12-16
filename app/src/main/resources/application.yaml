@@ -1,0 +1,14 @@
+# 注意：token需要自己去申请，申请地址：http://www.ip138.com
+token: 835bdfd43027ac25995c377356fa17ac
+server:
+  port: 8080
+spring:
+  redis:
+    host: 192.168.254.136
+    port: 6379
+    timeout: 10000
+    password: '0711'
+    database: 0
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
